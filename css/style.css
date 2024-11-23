@@ -1,0 +1,432 @@
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    background-color: #051e29;
+    display: flex;
+    color: white;
+    padding: 30px;
+    border-bottom: 5px solid red ;
+}
+
+header h1{
+    font-size: 20px;
+    justify-content: space-around;
+    font-family: "Metamorphous", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header p {
+    font-size: 25px;
+    font-family: "Jersey 25", serif;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px #494949;
+}
+
+.header__menu {
+    font-size: 16px;
+    justify-content: space-around;
+    display: flex;
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    padding-left: 200px;
+    gap: 40px;
+}
+
+.header__menu a{
+    border-radius: 11px;
+    justify-content: space-around;
+    background-color: #327067;
+    padding: 20px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu__link {
+    font-family: "Bungee", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #FAF7DE;
+}
+
+.menu__link:hover{
+    text-align: center;
+    font-size: 130%;
+    padding: 10px;
+    border-bottom: 8px solid red;
+    transition: 200ms;
+    background-color: black;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 4px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 30px;
+    color: rgb(228, 228, 228);
+}
+
+
+
+#intro a {
+    color: rgba(104, 104, 104, 0.726);
+    text-decoration: underline;
+}
+
+#intro h2 {
+    font-size: 24px;
+}
+
+#intro h2 p {
+flex-direction: row;
+}
+
+#intro a:hover {
+    color: rgb(100, 7, 7);
+    text-decoration: none;
+    font-size: 105%;
+}
+
+#about {
+    background-image: url(/ascents/zelda.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section__content{
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 30px 40px;
+    line-height: 30px;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+.section__content h2{
+    font-family: "Jersey 25", serif;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.about__grid{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-weight: 800;
+    gap: 400px;
+}
+
+
+
+.section__text{
+    font-size: 0px;
+}
+
+.section--gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 30px;
+}
+
+
+.section--gallery h2{
+    font-family: "Jersey 25", serif;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+
+.gallery__grid{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+}
+
+
+
+.gallery__caption{
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+.gallery__img{
+    width: 300px; 
+    height: 200px; 
+    background-image: url(/ascents/zelda2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 1.3s ease; 
+}
+.gallery__grid img:hover{
+    transform: scale(1.3); 
+}
+
+
+
+.gallery__grid .btn-more{
+    width: 100%;
+    background-color: #327067;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.gallery__grid figcaption{
+    font-family: "Bungee", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.section--services .section__content{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    border-bottom: #8a8a8a solid 5px;
+}
+
+.services__list{
+    display: flex;
+    flex-direction: row;
+}
+
+.section--contact .section__content{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    border-bottom: #8a8a8a solid 5px;
+}
+
+.section--news {
+align-items: center;
+display: flex;
+flex-direction: column;
+
+}
+
+.section--news h2{
+    font-family: "Jersey 25", serif;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+
+.news__grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    gap: 30px;
+    line-height: 20px;
+}
+
+.news__grid div{
+    width:400px;
+}
+
+
+.news__grid img{
+    width:100%;
+    height: 100%;
+}
+
+.news__grid p{
+    font-size: 12px;
+}
+
+
+.news__content h3{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+}
+
+
+
+.news__grid .btn-more{
+    width: 100%;
+    background-color: #327067;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.news__item img{
+    height: 200px;
+    width: 100%;
+}
+
+
+.btn-more:hover{
+    transition: 200ms;
+    background-color: rgb(126, 16, 16);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+
+.news__img {
+    width: 300px; 
+    height: 200px; 
+    background-image: url(/ascents/zelda2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 1.3s ease; 
+}
+.news__grid img:hover{
+    transform: scale(1.3); 
+}
+
+
+.contact__form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap:30px;
+}
+
+.contact__form .form__button{
+    width: 100%;
+    background-color: #327067;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.contact__form .form__button:hover{
+    transition: 200ms;
+    background-color: rgb(126, 16, 16);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+textarea{
+    width: 300px;
+    height: 17px;
+}
+
+ textarea:focus {
+    height:130px; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(53, 53, 53, 0.5);
+}
+
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #090909;
+    padding: 60px 0;
+    text-align: center;
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer ul li{
+    padding: 8px;
+}
+
+footer ul li a{
+    color: #327067;
+}
+
+footer ul li a:hover{
+    transition: 1s;
+    color: rgb(126, 16, 16);
+}
